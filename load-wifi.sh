@@ -30,4 +30,4 @@ chmod 664 ~/setup_wifi.service
 sudo mv ~/setup_wifi.service /etc/systemd/system/setup_wifi.service
 
 sudo systemctl daemon-reload
-sudo systemctl enable disk-space-check.service
+sudo systemctl enable setup_wifi.service
