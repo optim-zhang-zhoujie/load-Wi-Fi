@@ -31,3 +31,4 @@ sudo mv ~/setup_wifi.service /etc/systemd/system/setup_wifi.service
 
 sudo systemctl daemon-reload
 sudo systemctl enable setup_wifi.service
+sudo systemctl start setup_wifi
